@@ -26,6 +26,8 @@
 		CE969C7120561B4900B73F8E /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
 		CEF0359F2086B5C5004DCC2B /* FlightInterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0359E2086B5C5004DCC2B /* FlightInterfaceController2.swift */; };
 		CEF035A02086B6A9004DCC2B /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
+		CEF035A22086DF95004DCC2B /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF035A12086DF95004DCC2B /* ScheduleInterfaceController.swift */; };
+		CEF035A42086E142004DCC2B /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF035A32086E142004DCC2B /* FlightRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		CE969C6520561A5600B73F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE969C6620561A5600B73F8E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		CEF0359E2086B5C5004DCC2B /* FlightInterfaceController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController2.swift; sourceTree = "<group>"; };
+		CEF035A12086DF95004DCC2B /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		CEF035A32086E142004DCC2B /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 				CE969C6320561A5600B73F8E /* Assets.xcassets */,
 				CE969C6520561A5600B73F8E /* Info.plist */,
 				CE969C6620561A5600B73F8E /* PushNotificationPayload.apns */,
+				CEF035A12086DF95004DCC2B /* ScheduleInterfaceController.swift */,
+				CEF035A32086E142004DCC2B /* FlightRowController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -354,6 +360,8 @@
 			files = (
 				CEF0359F2086B5C5004DCC2B /* FlightInterfaceController2.swift in Sources */,
 				CE969C6220561A5600B73F8E /* NotificationController.swift in Sources */,
+				CEF035A42086E142004DCC2B /* FlightRowController.swift in Sources */,
+				CEF035A22086DF95004DCC2B /* ScheduleInterfaceController.swift in Sources */,
 				CEF035A02086B6A9004DCC2B /* Flight.swift in Sources */,
 				CE969C6020561A5600B73F8E /* ExtensionDelegate.swift in Sources */,
 			);
